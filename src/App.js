@@ -1,3 +1,4 @@
+import './App.css'
 import ReducerHook from './Components/UseReducer-examples/ReducerHook'
 
 function App() {
