@@ -1,0 +1,10 @@
+.example-div{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(rgb(173, 121, 223),lightblue);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
