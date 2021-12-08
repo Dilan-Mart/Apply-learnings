@@ -7,8 +7,8 @@ const SessionStorageExample = () => {
   const [state, setState] = useSessionStorage("name", "");
   return (
     <div className="example-div">
-        <p>I will stay here even if you refresh this page</p>
-        <img style={{width:"5rem"}} src={teaseImg} alt="" />
+        <h3>I will stay here even if you refresh this page</h3>
+        <img style={{width:"3rem",marginBottom:"2rem"}} src={teaseImg} alt="" />
       <input
         type="text"
         value={state}
